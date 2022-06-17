@@ -1,0 +1,2 @@
+tasm32 mytasm /r /ml /m9
+ilink32 "C:\Program Files (x86)\Borland\CBuilder6\lib\c0x32.obj"+MyTasm.obj    /Gn/L"C:\Program Files (x86)\Borland\CBuilder6\lib\";"C:\Program Files (x86)\Borland\CBuilder6\lib\obj\";"C:\Program Files (x86)\Borland\CBuilder6\lib\release\";"C:\Program Files (x86)\Borland\CBuilder6\lib\PSDK\"/c/x/ap/Tpe  "C:\Program Files (x86)\Borland\CBuilder6\lib\import32.lib"+"C:\Program Files (x86)\Borland\CBuilder6\lib\cw32.lib" ,mytasm.exe
